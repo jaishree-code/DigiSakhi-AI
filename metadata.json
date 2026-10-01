@@ -1,0 +1,10 @@
+{
+  "name": "Remix Sahaayi - Digital Guide for DigiLocker",
+  "description": "A multilingual voice-guided digital guide helping first-time women users in rural India independently access DigiLocker government services.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
