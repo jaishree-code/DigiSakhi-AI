@@ -5,7 +5,7 @@
  * Guarantees 100% translation of all user-facing strings across English, Tamil, Hindi, and all 12 supported Indian languages.
  */
 
-export interface UITranslation {
+export interface UITranslationBase {
   nav: {
     home: string;
     practice: string;
@@ -16,16 +16,6 @@ export interface UITranslation {
     largerText: string;
     highContrast: string;
     selectLanguageTitle: string;
-  };
-  languageSelector: {
-    heading: string;
-    subtitle: string;
-    voiceReady: string;
-  };
-  actionGrid: {
-    sectionTitle: string;
-    sectionSubtitle: string;
-    openGuide: string;
   };
   coreJourney: {
     title: string;
@@ -98,6 +88,31 @@ export interface UITranslation {
     no: string;
     officialOnlyBtn: string;
   };
+  aboutFooter: {
+    empathyQuote: string;
+    resourcesTitle: string;
+    officialDigiLocker: string;
+    faqTitle: string;
+    nationalPortal: string;
+    civicIntegrityTitle: string;
+    zeroStorageTitle: string;
+    zeroStorageDesc: string;
+    civicDisclaimer: string;
+    builtWithCare: string;
+  };
+}
+
+export interface UITranslation extends UITranslationBase {
+  languageSelector: {
+    heading: string;
+    subtitle: string;
+    voiceReady: string;
+  };
+  actionGrid: {
+    sectionTitle: string;
+    sectionSubtitle: string;
+    openGuide: string;
+  };
   trustCard: {
     badge: string;
     disclaimer: string;
@@ -113,21 +128,9 @@ export interface UITranslation {
     showTests: string;
     desc: string;
   };
-  aboutFooter: {
-    empathyQuote: string;
-    resourcesTitle: string;
-    officialDigiLocker: string;
-    faqTitle: string;
-    nationalPortal: string;
-    civicIntegrityTitle: string;
-    zeroStorageTitle: string;
-    zeroStorageDesc: string;
-    civicDisclaimer: string;
-    builtWithCare: string;
-  };
 }
 
-export const UI_TRANSLATIONS: Record<string, UITranslation> = {
+export const UI_TRANSLATIONS: Record<string, UITranslationBase> = {
   // 1. TAMIL (தமிழ்)
   ta: {
     nav: {
