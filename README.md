@@ -69,7 +69,8 @@ Tested:
 - High-contrast interface
 
 ## Live Demo
-[Your Render URL]
+https://digisakhi-ai-2.onrender.com/[
 
 ## GitHub
-[Your GitHub URL]
+(https://github.com/jaishree-code/DigiSakhi-AI/tree/main)
+
