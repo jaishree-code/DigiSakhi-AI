@@ -1,0 +1,1 @@
+DigiSakhi AI is a multilingual, voice-first digital guide that helps first-time women users independently access essential government digital services. It provides simple regional-language guidance, practice mode, digital-safety education, accessibility features, and guidance to official services such as DigiLocker.
